@@ -1,7 +1,7 @@
 local combat = Combat()
 combat:setParameter(COMBAT_PARAM_TYPE, COMBAT_EARTHDAMAGE)
-combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_CARNIPHILA)
-combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_EARTH)
+combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_HITBYPOISON)
+combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_POISON)
 
 function onCastSpell(creature, variant)
 	local min = (creature:getLevel() / 80) + (creature:getMagicLevel() * 0.55) + 6

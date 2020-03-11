@@ -281,11 +281,11 @@
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</instant>
-	<instant group="support" name="Great Fireball Rune" words="adori mas flam" level="30" mana="530" soul="3" aggressive="0" cooldown="2000" needlearn="0" script="conjuring/great_fireball_rune.lua">
+	<instant group="support" name="Great Fireball Rune" words="adori gran flam" level="30" mana="530" soul="3" aggressive="0" cooldown="2000" needlearn="0" script="conjuring/great_fireball_rune.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</instant>
-	<instant group="support" name="Heavy Magic Missile Rune" words="adori vis" level="25" mana="350" soul="2" aggressive="0" cooldown="2000" needlearn="0" script="conjuring/heavy_magic_missile_rune.lua">
+	<instant group="support" name="Heavy Magic Missile Rune" words="adori gran" level="25" mana="350" soul="2" aggressive="0" cooldown="2000" needlearn="0" script="conjuring/heavy_magic_missile_rune.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 		<vocation name="Druid" />
@@ -295,7 +295,7 @@
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</instant>
-	<instant group="support" name="Light Magic Missile Rune" words="adori min vis" level="15" mana="120" soul="1" aggressive="0" cooldown="2000" needlearn="0" script="conjuring/light_magic_missile_rune.lua">
+	<instant group="support" name="Light Magic Missile Rune" words="adori" level="15" mana="120" soul="1" aggressive="0" cooldown="2000" needlearn="0" script="conjuring/light_magic_missile_rune.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Master Sorcerer" />
@@ -331,7 +331,7 @@
 		<vocation name="Master Sorcerer" />
 		<vocation name="Elder Druid" />
 	</instant>
-	<instant group="support" name="Stalagmite Rune" words="adori tera" level="24" mana="350" soul="2" premium="0" aggressive="0" cooldown="2000" needlearn="0" script="conjuring/stalagmite_rune.lua">
+	<instant group="support" name="Stalagmite Rune" words="adevo res pox" level="24" mana="350" soul="2" premium="0" aggressive="0" cooldown="2000" needlearn="0" script="conjuring/stalagmite_rune.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 		<vocation name="Druid" />

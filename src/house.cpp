@@ -236,6 +236,7 @@ bool House::transferToDepot() const
 		}
 
 		transferToDepot(&tmpPlayer);
+		tmpPlayer.setLastDepotId(townId);
 		IOLoginData::savePlayer(&tmpPlayer);
 	}
 	return true;

@@ -982,10 +982,6 @@ MonsterType* Monsters::loadMonster(const std::string& file, const std::string& m
 			std::cout << "[Warning - Monsters::loadMonster] Missing look type/typeex. " << file << std::endl;
 		}
 
-		if ((attr = node.attribute("mount"))) {
-			mType->info.outfit.lookMount = pugi::cast<uint16_t>(attr.value());
-		}
-
 		if ((attr = node.attribute("corpse"))) {
 			mType->info.lookcorpse = pugi::cast<uint16_t>(attr.value());
 		}

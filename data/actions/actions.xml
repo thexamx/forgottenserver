@@ -7,9 +7,6 @@
 	<action fromid="7759" toid="7762" script="other/enchanting.lua" />
 	<action itemid="24739" script="other/enchanting.lua" />
 
-	<!-- Market -->
-	<action itemid="14405" function="market" />
-
 	<!-- Quests -->
 	<action itemid="1740" script="quests/quests.lua" />
 	<action fromid="1747" toid="1749" script="quests/quests.lua" />
@@ -26,6 +23,8 @@
 	<action itemid="2580" script="tools/fishing.lua" allowfaruse="1" />
 	<action itemid="2554" script="tools/shovel.lua" />
 	<action itemid="5710" script="tools/shovel.lua" />
+	<action itemid="5908" script="tools/skinning.lua" />
+	<action itemid="5942" script="tools/skinning.lua" />
 	<action itemid="7731" script="tools/rope.lua" />
 	<action itemid="10511" script="tools/toolgear.lua" />
 	<action itemid="10513" script="tools/toolgear.lua" />
@@ -101,6 +100,17 @@
 	<action itemid="26191" script="other/food.lua" />
 	<action itemid="26201" script="other/food.lua" />
 
+	<!-- Special Foods -->
+	<action itemid="9992" script="special_foods/rotworm_stew.lua"/>
+	<action itemid="9993" script="special_foods/hydra_tongue_salad.lua"/>
+	<action itemid="9994" script="special_foods/roasted_dragon_wings.lua"/>
+	<action itemid="9995" script="special_foods/fried_tropical_terrorbird.lua"/>
+	<action itemid="9997" script="special_foods/veggie_casserole.lua"/>
+	<action itemid="9998" script="special_foods/filled_jalapeno_peppers.lua"/>
+	<action itemid="9999" script="special_foods/blessed_steak.lua"/>
+	<action itemid="10000" script="special_foods/carrot_cake.lua"/>
+	<action itemid="10001" script="special_foods/northern_fishburger.lua"/>
+
 	<!-- Other -->
 	<action itemid="430" script="other/teleport.lua" />
 	<action itemid="486" script="other/snowheap.lua" />
@@ -162,7 +172,7 @@
 	<action fromid="5732" toid="5737" script="other/doors.lua" />
 	<action fromid="5745" toid="5749" script="other/doors.lua" />
 	<action itemid="5786" script="other/music.lua" />
-	<action fromid="5792" toid="5797" script="other/die.lua" />
+	<action fromid="5792" toid="5797" script="other/dice.lua" />
 	<action itemid="6092" script="other/watch.lua" />
 	<action itemid="6114" script="other/constructionkits.lua" />
 	<action itemid="6115" script="other/constructionkits.lua" />
@@ -224,7 +234,6 @@
 	<action itemid="16099" script="other/constructionkits.lua" />
 	<action fromid="17235" toid="17238" script="other/doors.lua" />
 	<action fromid="18208" toid="18209" script="other/doors.lua" />
-	<action fromid="18488" toid="18492" script="other/skilltrainer.lua" />
 	<action fromid="19427" toid="19428" script="other/windows.lua" />
 	<action fromid="19440" toid="19441" script="other/windows.lua" />
 	<action fromid="19443" toid="19450" script="other/windows.lua" />

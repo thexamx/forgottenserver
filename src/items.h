@@ -117,12 +117,6 @@ enum ItemParseAttributes_t {
 	ITEM_PARSE_MAXMANAPOINTSPERCENT,
 	ITEM_PARSE_MAGICPOINTS,
 	ITEM_PARSE_MAGICPOINTSPERCENT,
-	ITEM_PARSE_CRITICALHITCHANCE,
-	ITEM_PARSE_CRITICALHITAMOUNT,
-	ITEM_PARSE_LIFELEECHCHANCE,
-	ITEM_PARSE_LIFELEECHAMOUNT,
-	ITEM_PARSE_MANALEECHCHANCE,
-	ITEM_PARSE_MANALEECHAMOUNT,
 	ITEM_PARSE_FIELDABSORBPERCENTENERGY,
 	ITEM_PARSE_FIELDABSORBPERCENTFIRE,
 	ITEM_PARSE_FIELDABSORBPERCENTPOISON,
@@ -182,7 +176,6 @@ struct Abilities {
 
 	//extra skill modifiers
 	int32_t skills[SKILL_LAST + 1] = { 0 };
-	int32_t specialSkills[SPECIALSKILL_LAST + 1] = { 0 };
 
 	int32_t speed = 0;
 
@@ -293,7 +286,6 @@ class ItemType
 		uint16_t id = 0;
 		uint16_t clientId = 0;
 		bool stackable = false;
-		bool isAnimation = false;
 
 		std::string name;
 		std::string article;

@@ -733,8 +733,8 @@ void Combat::doCombat(Creature* caster, const Position& position) const
 					}
 					
 					if (params.targetCallback) {
-						params.targetCallback->onTargetCombat(caster, target);
-					}	
+						params.targetCallback->onTargetCombat(caster, creature);
+					}
 				}
 			}
 		}

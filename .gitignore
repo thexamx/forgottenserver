@@ -176,3 +176,6 @@ pip-log.txt
 ## TFS / OT
 #############
 config.lua
+/vc14/dump.lua
+/vc14/.vs/theforgottenserver/v16/Browse.VC.db-wal
+/vc14/.vs/theforgottenserver/v16/Browse.VC.db-shm

@@ -12,11 +12,8 @@ PlayerStorageKeys = {
 	delayWallMirror = 30021,
 	madSheepSummon = 30023,
 	crateUsable = 30024,
-	nailCaseUseCount = 30031,
-	swampDigging = 30032,
-	vortexTamer = 30034,
 	achievementsBase = 300000,
-	achievementsCounter = 20000,
+	achievementsCounter = 20000
 }
 
 GlobalStorageKeys = {

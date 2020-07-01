@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Necromancer" nameDescription="a necromancer" race="blood" experience="580" speed="200" manacost="0">
+	<health now="580" max="580" />
+	<look type="9" corpse="6080" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="4" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-80" poison="8" />
+		<attack name="physical" interval="2000" chance="18" range="1" min="-10" max="-120">
+			<attribute key="shootEffect" value="death" />
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
+		<attack name="earth" interval="2000" chance="18" range="7" min="-35" max="-95">
+			<attribute key="shootEffect" value="poison" />
+			<attribute key="areaEffect" value="poison" />
+		</attack>
+	</attacks>
+	<defenses armor="50" defense="40">
+		<defense name="healing" interval="2000" chance="20" min="42" max="68">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity invisible="1" />
+		<immunity earth="1" />
+	</immunities>
+	<summons maxSummons="2">
+		<summon name="Ghoul" interval="2000" chance="8" />
+		<summon name="Ghost" interval="2000" chance="9" />
+		<summon name="Mummy" interval="2000" chance="10" />
+	</summons>
+	<voices interval="5000" chance="10">
+		<voice sentence="Your corpse will be mine!" />
+		<voice sentence="Taste the sweetness of death!" />
+	</voices>
+	<loot>
+		<item id="2148" countmax="90" chance="30050" />	<!-- gold coin -->
+		<item id="2545" countmax="5" chance="15000" />	<!-- poison arrow -->
+		<item id="2796" chance="1470" />					<!-- green mushroom -->
+		<item id="2663" chance="550" />					<!-- mystic turban -->
+		<item id="2423" chance="440" />					<!-- clerical mace -->
+		<item id="2195" chance="270" />					<!-- boots of haste -->
+		<item id="2436" chance="150" />					<!-- skull staff -->
+		<item id="7456" chance="50" />					<!-- noble axe -->
+	</loot>
+</monster>

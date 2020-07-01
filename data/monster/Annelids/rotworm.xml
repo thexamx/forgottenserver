@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Rotworm" nameDescription="a rotworm" race="blood" experience="40" speed="150" manacost="305">
+	<health now="65" max="65" />
+	<look type="26" corpse="5967" />
+	<targetchange interval="4000" chance="0" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="1" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="70" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-0" max="-40" />
+	</attacks>
+	<defenses armor="10" defense="10" />
+	<loot>
+		<item id="2530" countmax="1" chance="1000" /> <!-- a copper shield -->
+		<item id="2148" countmax="8" chance="60000" /> <!-- a gold coin -->
+		<item id="2148" countmax="12" chance="30000" /> <!-- a gold coin -->
+		<item id="2671" countmax="1" chance="20000" /> <!-- ham -->
+		<item id="2412" countmax="1" chance="300" /> <!-- a katana -->
+		<item id="2480" countmax="1" chance="1500" /> <!-- a legion helmet -->
+		<item id="2398" countmax="1" chance="4500" /> <!-- a mace -->
+		<item id="2666" countmax="1" chance="20000" /> <!-- meat -->
+		<item id="2376" countmax="1" chance="3000" /> <!-- a sword -->
+		<item id="3976" countmax="5" chance="5000" /> <!-- a worm -->
+	</loot>
+</monster>

@@ -350,4 +350,8 @@
 	<!--
 		<instant name="name" words="###1" aggressive="1" blockwalls="1" needtarget="1" needlearn="1" script="template.lua"/
 	-->
+<!-- Monster Spells -->
+	<instant name="djinn electrify"  words="###2"  aggressive="1" blockwalls="1" needtarget="1" needlearn="1" script="monster/djinn electrify.lua"/>
+	<instant name="warlock skill reducer" words="###30"  aggressive="1"  blockwalls="1" needtarget="1" needlearn="1" script="monster/warlock skill reducer.lua"/>
+	<instant name="djinn cancel invisibility" words="###47"  aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="monster/djinn cancel invisibility.lua"/>
 </spells>
